@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Banner-home-shop.jpg?id=22130);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.headertop {
+
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+
+
+
+
+}
+
+.headertop img,
+ul {
+    margin-right: 80px;
+}
+
+header ul {
+    display: flex;
+
+}
+
+.headertop ul li a {
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.headertop .headbut a {
+    color: #252525 !important;
+    background: #fff;
+    padding: 15px 35px !important;
+    border-radius: 50px;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+.headertop img {
+    margin-left: 20%;
+    height: 58px;
+    width: 177px;
+}
+
+.headerbody {
+    display: flex;
+
+    margin-left: 20%;
+    margin-top: 180px;
+
+}
+
+.headerbody .headerbodyleft {
+    width: 35%;
+
+}
+
+
+
+.headerbodyleft h1 {
+    color: #fff;
+    max-width: 510px;
+    font-size: 55px;
+    font-family: 'Jost', sans-serif;
+    line-height: 56px;
+    position: relative;
+    z-index: 1;
+}
+
+.headerbodyleft p {
+    color: #fff;
+    max-width: 500px;
+    font-family: Poppins;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.headerbodyleft a {
+    background-color: rgb(0, 107, 166);
+    border-radius: 30px !important;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 35px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: 600;
+    font-family: Poppins;
+
+}
+
+.headerbodyleft h1::before {
+    content: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/FFP3-Mask.png);
+    position: absolute;
+    top: -75%;
+    left: -27%;
+    z-index: -1;
+}
+
+
+
+.section1 .sec1head h2 {
+    font-size: 36px;
+    color: #222222;
+    line-height: 46px;
+    text-align: center;
+    font-family: "Jost";
+    font-size: 36px;
+    margin-top: 180px !important;
+    margin-bottom: 40px !important;
+    position: relative;
+    z-index: 1;
+}
+
+.section1 .sec1head h2::before {
+    content: "Masks";
+    top: -300%;
+    left: 38%;
+    z-index: -1;
+    font-size: 160px;
+    color: #f7f7f7;
+    line-height: 240px;
+    text-align: center;
+    position: absolute;
+}
+
+.sec1body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 20%;
+
+
+}
+
+.box {
+    width: 30%;
+    margin: 15px 17px;
+    background-color: #F2F2F2;
+    border-radius: 9px;
+
+}
+
+.boxhead img {
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 9px;
+
+}
+
+.boxhead img:hover {}
+
+.boxbody h3 {
+    color: #111;
+    font-weight: 400;
+    font-family: "Jost";
+    font-size: 22px;
+    margin-left: 45px;
+}
+
+.boxbody {}
+
+.boxfoot {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.boxfoot span {
+    line-height: 22px;
+    color: #606060 !important;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: Poppins;
+    margin-left: 45px;
+}
+
+.boxfoot img {
+    margin-left: 130px;
+}
+
+.sec1bottom a {
+    background-color: rgb(0, 107, 166);
+    border-radius: 30px !important;
+    color: #fff;
+    padding: 15px 30px;
+    font-family: Poppins;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+.sec1bottom{
+    text-align: center;
+    margin :40px 0;
+    margin-right: 30px;
+    margin-bottom: 200px;
+}
+.section2{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/quality-banner.jpg?id=22083);
+    background-repeat: no-repeat;
+    padding: 11rem 0;
+}
+.sec2body h2{
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 46px;
+    font-family: "Jost";
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 15px;
+}
+.sec2body h2::before{
+    content: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Quality.png);
+    position: absolute;
+    top:-95px;
+    left:-75px;
+}
+.sec2body p{
+    max-width: 500px;
+    font-family: Poppins;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 40px;
+}
+.sec2body a{
+    color: rgb(0, 107, 166);
+    background-color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-radius: 35px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: 600;
+    font-family: Poppins;
+    margin-left: 130px;
+    
+}
+.sec2body{
+    margin-left: 25%;
+}
+
